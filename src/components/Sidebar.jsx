@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import {
 	RiBarChart2Line,
 	RiEarthLine,
-	RiMessage3Line,
+	RiCustomerService2Line,
 	RiCalendarTodoLine,
 	RiLogoutCircleRLine,
 	RiArrowRightSLine,
@@ -100,8 +100,8 @@ const Sidebar = () => {
 								to='/'
 								className='flex items-center gap-4 py-2 px-4 rounded-lg hover:bg-secondary-900 transition-colors'
 							>
-								<RiMessage3Line className='text-primary' />
-								Messages
+								<RiCustomerService2Line className='text-primary' />
+								Technical Support
 							</Link>
 						</li>
 
