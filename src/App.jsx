@@ -15,6 +15,7 @@ import ResetPassword from "./pages/auth/ResetPassword";
 // Pages Admin
 import Dashboard from "./pages/admin/Dashboard";
 import Chat from "./pages/admin/Chat";
+import Profile from "./pages/admin/Profile";
 
 import Error404 from "./pages/Error404";
 
@@ -35,9 +36,10 @@ const App = () => {
 					></Route>
 				</Route>
 
-				<Route path='/dashboard' element={<LayoutAdmin />}>
+				<Route path='/' element={<LayoutAdmin />}>
 					<Route index element={<Dashboard />} />
 					<Route path='chat' element={<Chat />} />
+					<Route path='profile' element={<Profile />} />
 				</Route>
 				<Route path='*' element={<Error404 />}></Route>
 			</Routes>
