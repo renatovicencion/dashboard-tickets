@@ -42,12 +42,12 @@ const Header = () => {
 					menuClassName='bg-secondary-100 p-4 text-gray-300'
 				>
 					<h1 className='text-center font-medium'>
-						Notifications (2)
+						Notificaciones (2)
 					</h1>
 					<hr className='my-4 border-gray-500' />
 					<MenuItem className='p-0 hover:bg-transparent'>
 						<Link
-							to='/'
+							to='/profile'
 							className='flex flex-1 items-center gap-3 py-2 px-4 hover:bg-secondary-900 transition-colors rounded-lg'
 						>
 							<img
@@ -75,11 +75,11 @@ const Header = () => {
 							<RiThumbUpLine className='p-2 bg-blue-200 text-blue-700 box-content rounded-full' />
 							<div className='text-sm flex flex-col'>
 								<div className='flex items-center justify-between gap-4'>
-									<span>New like</span>{" "}
+									<span>Nuevo me gusta</span>{" "}
 									<span className='text-xs'>08/01/2023</span>
 								</div>
 								<p className='text-gray-500 text-xs'>
-									Jorge Luis liked your publicatio...
+									Jorge Luis le ha dado me gusta a tu publi...
 								</p>
 							</div>
 						</Link>
@@ -93,11 +93,11 @@ const Header = () => {
 							<RiChat1Line className='p-2 bg-green-200 text-green-700 box-content rounded-full' />
 							<div className='text-sm flex flex-col'>
 								<div className='flex items-center justify-between gap-4'>
-									<span>New comment</span>{" "}
+									<span>Nuevo comentario</span>{" "}
 									<span className='text-xs'>08/01/2023</span>
 								</div>
 								<p className='text-gray-500 text-xs'>
-									Jorge Luis commented your publicatio...
+									Jorge Luis comentó tu publicaci...
 								</p>
 							</div>
 						</Link>
@@ -109,7 +109,7 @@ const Header = () => {
 							to='/'
 							className='text-gray-500 text-sm hover:text-primary transition-colors'
 						>
-							Read all
+							Ver todas
 						</Link>
 					</MenuItem>
 				</Menu>
@@ -160,7 +160,7 @@ const Header = () => {
 							className='rounded-lg flex-1 transition-colors hover:bg-secondary-900 flex items-center gap-x-4 py-2 px-6'
 						>
 							<RiSettings3Line />
-							Configuration
+							Configuración
 						</Link>
 					</MenuItem>
 					<MenuItem className='p-0 hover:bg-transparent'>
@@ -169,7 +169,7 @@ const Header = () => {
 							className='rounded-lg flex-1 transition-colors hover:bg-secondary-900 flex items-center gap-x-4 py-2 px-6'
 						>
 							<RiLogoutCircleRLine />
-							Logout
+							Cerrar sesión
 						</Link>
 					</MenuItem>
 				</Menu>
